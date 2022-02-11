@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was build with Create React App
 
 ## Available Scripts
 
@@ -8,23 +8,45 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in the development mode.
+Open [http://localhost:3000] to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload when you make changes and save them.
+
+Once in your browser you can see:
+
+1. Titlte 'NBA Player'
+2. Instructions 'Please enter the height'
+3. Input field with placeholder 'search'
+4. and the results of the search 'No matches found'
+
+You have to copy a number in the input field and the program
+is going to search in a API which end point 
+is ['https://mach-eight.uc.r.appspot.com/'] for NBA 
+players who have a height bigger than the number you provided in 
+the input field.
+
+If you type 90 that is the tallest player you are going to see
+'No matches found' in the screen, the same as if you keep the
+input field empty.
+
+if you type a number between 1 and 89 you are going to see
+all players who have a greater height than the one you
+provided in the input field.
+
+In the project directory, you can run:
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+That launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder.
+It correctly bundles React in production mode and optimizes the 
+build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
